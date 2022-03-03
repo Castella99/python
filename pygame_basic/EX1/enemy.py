@@ -8,7 +8,7 @@ class Enemy(Character) :
         self.character_size = self.character.get_rect().size
         self.character_width = self.character_size[0]
         self.character_height = self.character_size[1]
-        self.character_speed = 12
+        self.character_speed = 20
         self.character_x = random.randint(0, 640-self.character_width)
         self.character_y = 0
         self.character_rect = self.character.get_rect()
